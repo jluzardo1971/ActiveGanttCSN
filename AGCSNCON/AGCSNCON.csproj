@@ -1,0 +1,663 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8A3E1CCA-C29C-42A9-9C6D-380B62829791}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>AGCSNCON</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AGCSNCON</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>AGCSNCON.fMain</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'SCSCustomer|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'SCSDemo|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AGCSN">
+      <Name>AGCSN</Name>
+      <HintPath>AGCSN\AGCSN.dll</HintPath>
+    </Reference>
+    <Reference Include="MSP2003">
+      <HintPath>AGCSN\MSP2003.dll</HintPath>
+    </Reference>
+    <Reference Include="MSP2007">
+      <HintPath>AGCSN\MSP2007.dll</HintPath>
+    </Reference>
+    <Reference Include="MSP2010">
+      <HintPath>AGCSN\MSP2010.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.SqlServerCe">
+      <HintPath>..\..\..\Microsoft Visual Studio\Shared\Packages\Microsoft.SqlServer.Compact.4.0.8876.1\lib\net40\System.Data.SqlServerCe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsCmdBuilder.cs" />
+    <Compile Include="clsCR_Objects.cs" />
+    <Compile Include="clsCR_Row.cs" />
+    <Compile Include="clsCR_Rows.cs" />
+    <Compile Include="clsCR_Task.cs" />
+    <Compile Include="clsCR_Tasks.cs" />
+    <Compile Include="fCustomTickMarkAreaDraw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fCustomTickMarkAreaDraw.Designer.cs">
+      <DependentUpon>fCustomTickMarkAreaDraw.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fCustomTickMarkTextDraw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fCustomTickMarkTextDraw.Designer.cs">
+      <DependentUpon>fCustomTickMarkTextDraw.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fSTL_Anakiwa_Blue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fSTL_Anakiwa_Blue.Designer.cs">
+      <DependentUpon>fSTL_Anakiwa_Blue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fSTL_CR .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fSTL_CR .Designer.cs">
+      <DependentUpon>fSTL_CR .cs</DependentUpon>
+    </Compile>
+    <Compile Include="fSTL_MSP2003.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fSTL_MSP2003.Designer.cs">
+      <DependentUpon>fSTL_MSP2003.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fSTL_MSP2007.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fSTL_MSP2007.Designer.cs">
+      <DependentUpon>fSTL_MSP2007.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fSTL_MSP2010.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fSTL_MSP2010.Designer.cs">
+      <DependentUpon>fSTL_MSP2010.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fTemplates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fTemplates.Designer.cs">
+      <DependentUpon>fTemplates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modData.cs" />
+    <Compile Include="fCarRental.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fCarRental.Designer.cs">
+      <DependentUpon>fCarRental.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fCarRentalBranch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fCarRentalBranch.Designer.cs">
+      <DependentUpon>fCarRentalBranch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fCarRentalReservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fCarRentalReservation.Designer.cs">
+      <DependentUpon>fCarRentalReservation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fCarRentalVehicle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fCarRentalVehicle.Designer.cs">
+      <DependentUpon>fCarRentalVehicle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fCustomDrawing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fCustomDrawing.Designer.cs">
+      <DependentUpon>fCustomDrawing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fDurationTasks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fDurationTasks.Designer.cs">
+      <DependentUpon>fDurationTasks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fFastLoading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fFastLoading.Designer.cs">
+      <DependentUpon>fFastLoading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fLoadXML.Designer.cs">
+      <DependentUpon>fLoadXML.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fMain.Designer.cs">
+      <DependentUpon>fMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fMillisecondInterval.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fMillisecondInterval.Designer.cs">
+      <DependentUpon>fMillisecondInterval.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fPrintDialog.Designer.cs">
+      <DependentUpon>fPrintDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fPrintPreview.Designer.cs">
+      <DependentUpon>fPrintPreview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fRCT_DAY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fRCT_DAY.Designer.cs">
+      <DependentUpon>fRCT_DAY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fRCT_MONTH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fRCT_MONTH.Designer.cs">
+      <DependentUpon>fRCT_MONTH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fRCT_WEEK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fRCT_WEEK.Designer.cs">
+      <DependentUpon>fRCT_WEEK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fRCT_YEAR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fRCT_YEAR.Designer.cs">
+      <DependentUpon>fRCT_YEAR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fSortRows.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fSortRows.Designer.cs">
+      <DependentUpon>fSortRows.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fWBSPProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fWBSPProperties.Designer.cs">
+      <DependentUpon>fWBSPProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fWBSProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fWBSProject.Designer.cs">
+      <DependentUpon>fWBSProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fWBSProjectTaskView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fLoadXML.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fMSProject11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fMSProject11.Designer.cs">
+      <DependentUpon>fMSProject11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fMSProject12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fMSProject12.Designer.cs">
+      <DependentUpon>fMSProject12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fMSProject14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fMSProject14.Designer.cs">
+      <DependentUpon>fMSProject14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fPrintDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fPrintPreview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fWBSProjectTaskView.Designer.cs">
+      <DependentUpon>fWBSProjectTaskView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Globals.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="fCarRental.resx">
+      <DependentUpon>fCarRental.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fCarRentalBranch.resx">
+      <DependentUpon>fCarRentalBranch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fCarRentalReservation.resx">
+      <DependentUpon>fCarRentalReservation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fCarRentalVehicle.resx">
+      <DependentUpon>fCarRentalVehicle.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fCustomDrawing.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fCustomDrawing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fCustomTickMarkAreaDraw.resx">
+      <DependentUpon>fCustomTickMarkAreaDraw.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fCustomTickMarkTextDraw.resx">
+      <DependentUpon>fCustomTickMarkTextDraw.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fDurationTasks.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fDurationTasks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fFastLoading.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fFastLoading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fMillisecondInterval.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fMillisecondInterval.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fRCT_DAY.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fRCT_DAY.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fRCT_MONTH.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fRCT_MONTH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fRCT_WEEK.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fRCT_WEEK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fRCT_YEAR.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fRCT_YEAR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSortRows.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fSortRows.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSTL_Anakiwa_Blue.resx">
+      <DependentUpon>fSTL_Anakiwa_Blue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSTL_CR .resx">
+      <DependentUpon>fSTL_CR .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSTL_MSP2003.resx">
+      <DependentUpon>fSTL_MSP2003.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSTL_MSP2007.resx">
+      <DependentUpon>fSTL_MSP2007.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSTL_MSP2010.resx">
+      <DependentUpon>fSTL_MSP2010.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fTemplates.resx">
+      <DependentUpon>fTemplates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fWBSPProperties.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fWBSPProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fWBSProject.resx">
+      <DependentUpon>fWBSProject.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fWBSProjectTaskView.resx">
+      <DependentUpon>fWBSProjectTaskView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fLoadXML.resx">
+      <DependentUpon>fLoadXML.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fMain.resx">
+      <DependentUpon>fMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fMSProject11.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fMSProject11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fMSProject12.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fMSProject12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fMSProject14.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fMSProject14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fPrintDialog.resx">
+      <DependentUpon>fPrintDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fPrintPreview.resx">
+      <DependentUpon>fPrintPreview.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Content Include="ActiveGanttExamples.sdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AGCSN\AGCSN.dll" />
+    <Content Include="CarRental\Big\Chrysler 300 Bright Silver.jpg" />
+    <Content Include="CarRental\Big\Chrysler 300 Brilliant Black.jpg" />
+    <Content Include="CarRental\Big\Chrysler 300 Clearwater Blue.jpg" />
+    <Content Include="CarRental\Big\Escape Atlantis Blue.jpg" />
+    <Content Include="CarRental\Big\Escape Hot Red.jpg" />
+    <Content Include="CarRental\Big\Escape Metalic Sand.jpg" />
+    <Content Include="CarRental\Big\Escape Panther Black.jpg" />
+    <Content Include="CarRental\Big\Falcon XT Wagon Lightning Strike.jpg" />
+    <Content Include="CarRental\Big\Falcon XT Wagon Sensation.jpg" />
+    <Content Include="CarRental\Big\Falcon XT Wagon Silhoutte.jpg" />
+    <Content Include="CarRental\Big\Falcon XT Wagon Steel.jpg" />
+    <Content Include="CarRental\Big\Falcon XT Wagon Vixen.jpg" />
+    <Content Include="CarRental\Big\Fiesta CL 3 Door Hydro.jpg" />
+    <Content Include="CarRental\Big\Fiesta CL 3 Door Ocean.jpg" />
+    <Content Include="CarRental\Big\Fiesta CL 3 Door Panther Black.jpg" />
+    <Content Include="CarRental\Big\Fiesta CL 5 Door Frozen White.jpg" />
+    <Content Include="CarRental\Big\Fiesta CL 5 Door Hydro.jpg" />
+    <Content Include="CarRental\Big\Fiesta CL 5 Door Panther Black.jpg" />
+    <Content Include="CarRental\Big\Fiesta CL 5 Door Squeeze.jpg" />
+    <Content Include="CarRental\Big\Focus CL Hatch Black Sapphire.jpg" />
+    <Content Include="CarRental\Big\Focus CL Hatch Colorado Red.jpg" />
+    <Content Include="CarRental\Big\Focus CL Hatch Ocean.jpg" />
+    <Content Include="CarRental\Big\Focus CL Hatch Tonic.jpg" />
+    <Content Include="CarRental\Big\Focus CL Sedan Black Sapphire.jpg" />
+    <Content Include="CarRental\Big\Focus CL Sedan Ocean.jpg" />
+    <Content Include="CarRental\Big\Focus CL Sedan Satin White.jpg" />
+    <Content Include="CarRental\Big\Focus CL Sedan Tango.jpg" />
+    <Content Include="CarRental\Big\Focus CL Sedan Titanium Grey.jpg" />
+    <Content Include="CarRental\Big\LR3 Alaska White.jpg" />
+    <Content Include="CarRental\Big\LR3 Rimini Red.jpg" />
+    <Content Include="CarRental\Big\LR3 Santorini Black.jpg" />
+    <Content Include="CarRental\Big\Mondeo LX Colorado Red.jpg" />
+    <Content Include="CarRental\Big\Mondeo LX Ink Blue.jpg" />
+    <Content Include="CarRental\Big\Mondeo LX Sea Grey.jpg" />
+    <Content Include="CarRental\Big\Pacifica Clearwater Blue.jpg" />
+    <Content Include="CarRental\Big\Pacifica Modern Blue.jpg" />
+    <Content Include="CarRental\Big\Pacifica Silver.jpg" />
+    <Content Include="CarRental\Big\Range Rover HSE Alaska White.jpg" />
+    <Content Include="CarRental\Big\Range Rover HSE Buckingham Blue.jpg" />
+    <Content Include="CarRental\Big\Range Rover HSE Galway Green.jpg" />
+    <Content Include="CarRental\Big\Range Rover HSE Rimini.jpg" />
+    <Content Include="CarRental\Big\Range Rover HSE Santorini Black.jpg" />
+    <Content Include="CarRental\Big\Range Rover HSE Zermatt Silver.jpg" />
+    <Content Include="CarRental\Big\Territory TX RWD Ego.jpg" />
+    <Content Include="CarRental\Big\Territory TX RWD Kashmir.jpg" />
+    <Content Include="CarRental\Big\Territory TX RWD Silhouette.jpg" />
+    <Content Include="CarRental\Big\Territory TX RWD Steel.jpg" />
+    <Content Include="CarRental\Big\Territory TX RWD Winter White.jpg" />
+    <Content Include="CarRental\Big\Town and Country Clearwater Blue.jpg" />
+    <Content Include="CarRental\Big\Town and Country Inferno Red.jpg" />
+    <Content Include="CarRental\Big\Town and Country Melbourne Green.jpg" />
+    <Content Include="CarRental\Big\Town and Country Modern Blue.jpg" />
+    <Content Include="CarRental\minus.jpg" />
+    <Content Include="CarRental\plus.jpg" />
+    <Content Include="CarRental\small\Chrysler 300 Bright Silver.jpg" />
+    <Content Include="CarRental\small\Chrysler 300 Brilliant Black.jpg" />
+    <Content Include="CarRental\small\Chrysler 300 Clearwater Blue.jpg" />
+    <Content Include="CarRental\small\Escape Atlantis Blue.jpg" />
+    <Content Include="CarRental\small\Escape Hot Red.jpg" />
+    <Content Include="CarRental\small\Escape Metalic Sand.jpg" />
+    <Content Include="CarRental\small\Escape Panther Black.jpg" />
+    <Content Include="CarRental\small\Falcon XT Wagon Lightning Strike.jpg" />
+    <Content Include="CarRental\small\Falcon XT Wagon Sensation.jpg" />
+    <Content Include="CarRental\small\Falcon XT Wagon Silhoutte.jpg" />
+    <Content Include="CarRental\small\Falcon XT Wagon Steel.jpg" />
+    <Content Include="CarRental\small\Falcon XT Wagon Vixen.jpg" />
+    <Content Include="CarRental\small\Fiesta CL 3 Door Hydro.jpg" />
+    <Content Include="CarRental\small\Fiesta CL 3 Door Ocean.jpg" />
+    <Content Include="CarRental\small\Fiesta CL 3 Door Panther Black.jpg" />
+    <Content Include="CarRental\small\Fiesta CL 5 Door Frozen White.jpg" />
+    <Content Include="CarRental\small\Fiesta CL 5 Door Hydro.jpg" />
+    <Content Include="CarRental\small\Fiesta CL 5 Door Panther Black.jpg" />
+    <Content Include="CarRental\small\Fiesta CL 5 Door Squeeze.jpg" />
+    <Content Include="CarRental\small\Focus CL Hatch Black Sapphire.jpg" />
+    <Content Include="CarRental\small\Focus CL Hatch Colorado Red.jpg" />
+    <Content Include="CarRental\small\Focus CL Hatch Ocean.jpg" />
+    <Content Include="CarRental\small\Focus CL Hatch Tonic.jpg" />
+    <Content Include="CarRental\small\Focus CL Sedan Black Sapphire.jpg" />
+    <Content Include="CarRental\small\Focus CL Sedan Ocean.jpg" />
+    <Content Include="CarRental\small\Focus CL Sedan Satin White.jpg" />
+    <Content Include="CarRental\small\Focus CL Sedan Tango.jpg" />
+    <Content Include="CarRental\small\Focus CL Sedan Titanium Grey.jpg" />
+    <Content Include="CarRental\small\LR3 Alaska White.jpg" />
+    <Content Include="CarRental\small\LR3 Rimini Red.jpg" />
+    <Content Include="CarRental\small\LR3 Santorini Black.jpg" />
+    <Content Include="CarRental\small\Mondeo LX Colorado Red.jpg" />
+    <Content Include="CarRental\small\Mondeo LX Ink Blue.jpg" />
+    <Content Include="CarRental\small\Mondeo LX Sea Grey.jpg" />
+    <Content Include="CarRental\small\Pacifica Clearwater Blue.jpg" />
+    <Content Include="CarRental\small\Pacifica Modern Blue.jpg" />
+    <Content Include="CarRental\small\Pacifica Silver.jpg" />
+    <Content Include="CarRental\small\Range Rover HSE Alaska White.jpg" />
+    <Content Include="CarRental\small\Range Rover HSE Buckingham Blue.jpg" />
+    <Content Include="CarRental\small\Range Rover HSE Galway Green.jpg" />
+    <Content Include="CarRental\small\Range Rover HSE Rimini.jpg" />
+    <Content Include="CarRental\small\Range Rover HSE Santorini Black.jpg" />
+    <Content Include="CarRental\small\Range Rover HSE Zermatt Silver.jpg" />
+    <Content Include="CarRental\small\Territory TX RWD Ego.jpg" />
+    <Content Include="CarRental\small\Territory TX RWD Kashmir.jpg" />
+    <Content Include="CarRental\small\Territory TX RWD Silhouette.jpg" />
+    <Content Include="CarRental\small\Territory TX RWD Steel.jpg" />
+    <Content Include="CarRental\small\Territory TX RWD Winter White.jpg" />
+    <Content Include="CarRental\small\Town and Country Clearwater Blue.jpg" />
+    <Content Include="CarRental\small\Town and Country Inferno Red.jpg" />
+    <Content Include="CarRental\small\Town and Country Melbourne Green.jpg" />
+    <Content Include="CarRental\small\Town and Country Modern Blue.jpg" />
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.3.5">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 3.5 SP2</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    if not exist "$(TargetDir)x86" md "$(TargetDir)x86"
+    xcopy /s /y "$(SolutionDir)packages\Microsoft.SqlServer.Compact.4.0.8876.1\NativeBinaries\x86\*.*" "$(TargetDir)x86"
+    if not exist "$(TargetDir)amd64" md "$(TargetDir)amd64"
+    xcopy /s /y "$(SolutionDir)packages\Microsoft.SqlServer.Compact.4.0.8876.1\NativeBinaries\amd64\*.*" "$(TargetDir)amd64"</PostBuildEvent>
+  </PropertyGroup>
+</Project>
